@@ -1,0 +1,148 @@
+body {
+  background-color: #afafaf;
+  fill: #afafaf;
+  font-family:  'Ubuntu', sans-serif;
+}
+.text {
+  opacity: 1;
+  position: absolute;
+  z-index: 7;
+  text-align: left;
+  margin: -50px 0 0 -150px;
+  width: 300px;
+  height: 100px;
+  top: 50%;
+  left: 20%;
+  font-size: 48px;
+  font-weight: 700;
+  -webkit-animation: on 0.6s ease-in-out 0.7s forwards;
+  -moz-animation: on 0.6s ease-in-out 0.7s forwards;
+  -o-animation: on 0.6s ease-in-out 0.7s forwards;
+  animation: on 0.6s ease-in-out 0.7s forwards;
+}
+.text p {
+  white-space: nowrap;
+  overflow: visible;
+  width: 100%;
+  -webkit-animation: type 0.3s steps(60, end) 0.7s;
+  -moz-animation: type 0.3s steps(60, end) 0.7s;
+  -o-animation: type 0.3s steps(60, end) 0.7s;
+  animation: type 0.3s steps(60, end) 0.7s;
+}
+.text p:nth-child(2) {
+  -webkit-animation: type2 0.5s steps(60, end) 0.7s;
+  -moz-animation: type2 0.5s steps(60, end) 0.7s;
+  -o-animation: type2 0.5s steps(60, end) 0.7s;
+  animation: type2 0.5s steps(60, end) 0.7s;
+}
+.text button {
+  border: 0;
+  opacity: 1;
+  background: #191919;
+  color: #afafaf;
+  border: 1px solid #191919;
+  letter-spacing: 2px;
+  padding: .5rem 2.5rem;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: color 0.5s, background-color 0.5s;
+  -moz-transition: color 0.5s, background-color 0.5s;
+  -ms-transition: color 0.5s, background-color 0.5s;
+  -o-transition: color 0.5s, background-color 0.5s;
+  transition: color 0.5s, background-color 0.5s;
+  -webkit-animation: on 0.6s ease-in-out 0.7s forwards;
+  -moz-animation: on 0.6s ease-in-out 0.7s forwards;
+  -o-animation: on 0.6s ease-in-out 0.7s forwards;
+  animation: on 0.6s ease-in-out 0.7s forwards;
+}
+.text button:hover {
+  background: #afafaf;
+  color: #191919;
+  border: 1px solid #afafaf;
+}
+@-webkit-keyframes on {
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes on {
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes on {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes on {
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@-moz-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@-o-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+@-moz-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+@-o-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
