@@ -65,7 +65,6 @@
           <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off"
             autocorrect="off" spellcheck="false" type="search" class="form-control" aria-label="Search...">
         </div>
-
       </section>
       <section class="section-search-results">
         <div id="search-hits">
@@ -89,14 +88,16 @@
         <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
           <ul class="navbar-nav d-md-inline-flex">
             <li class="nav-item">
-              <a class="nav-link " href="/#about"><span>Home</span></a>
+              <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="/project/index.html"><span>Projects</span></a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/publication/index.html" data-target="#about"><span>Publications</span></a>
+            </li>
           </ul>
         </div>
-
         <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
           <li class="nav-item">
             <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search"
@@ -122,24 +123,19 @@
       </div>
     </nav>
   </div>
-
   <hr>
-
   <div class="page-body">
     <div class="universal-wrapper pt-3">
       <h1>Computer Vision and Robotics</h1>
       <h3>Projects relating to computer vision, controls theory, and motion planning.</h3>
     </div>
-
     <div class="universal-wrapper">
-      
       <div>
         <h2><a href="/hough_lines_and_circles_detection/">Hough Lines and Circles Detection</a></h2>
         <div class="article-style">
           A program to detect lines, circles, or both from a USB camera stream using Hough detection method.
         </div>
       </div>
-
       <div>
         <h2><a href="/track_laser_pointer/">Laser Pointer Tracker</a></h2>
         <div class="article-style">
@@ -147,66 +143,57 @@
           lock on target by overlaying a crosshair marker on the center of the detected spot.
         </div>
       </div>
-      
       <div>
-        <h2><a href="/adaptive_object_detection_and_obstacle_avoidance_robot/">Adaptive Object Detection, and Obstacle Avoidance Robot</a></h2>
+        <h2><a href="/adaptive_object_detection_and_obstacle_avoidance_robot/">Adaptive Object Detection, and Obstacle
+            Avoidance Robot</a></h2>
         <div class="article-style">
           Adaptive object detection, and obstacle avoidance robot using a Jetson Nano 2GB, OpenCV, Lidar, OpenCR and
           ROS.
         </div>
       </div>
-
     </div>
   </div>
-
   <hr>
-
   <div class="page-body">
     <div class="universal-wrapper pt-3">
       <h1>Parallelism</h1>
       <h5>Projects relating to parallel computing (focused on synchronization and resources management).</h5>
     </div>
-
     <div class="universal-wrapper">
-      
       <div>
         <h2><a href="/gold_mining/">Gold Mining</a></h2>
         <div class="article-style">
-          A terminal-based gold mining game. Supports up to 5 players, and customizable maps. Utilizes linux's task parallelism methods (i.e., POSIX multi-processing/threading), 
+          A terminal-based gold mining game. Supports up to 5 players, and customizable maps. Utilizes linux's task
+          parallelism methods (i.e., POSIX multi-processing/threading),
           and resources management modules (shared memory, pipes, sockets, and message queues).
         </div>
       </div>
-
     </div>
   </div>
-
   <hr>
-
   <div class="page-body">
     <div class="universal-wrapper pt-3">
       <h1>Automation tools</h1>
-      <h4>Tools to automate testing and debugging. I find these tools helpful during projects bring-up and benchmarking (data collection and visualization).</h4>
+      <h4>Tools to automate testing and debugging. I find these tools helpful during projects bring-up and benchmarking
+        (data collection and visualization).</h4>
     </div>
-
     <div class="universal-wrapper">
-      
       <div>
         <h2><a href="/syslogViz/">Syslog visualizer</a></h2>
         <div class="article-style">
-        Utility tool to visualize syslog output. Helpful for debugging headless programs while reducing debugging statements overhead (compared to, for example, stdout).
+          Utility tool to visualize syslog output. Helpful for debugging headless programs while reducing debugging
+          statements overhead (compared to, for example, stdout).
         </div>
       </div>
-      
       <div>
         <h2><a href="/straceViz/">Strace visualizer</a></h2>
         <div class="article-style">
-        Utility tool to visualize strace outputs. Helpful for debugging parallel computing programs with shared resources and synchronization mechanisms.
+          Utility tool to visualize strace outputs. Helpful for debugging parallel computing programs with shared
+          resources and synchronization mechanisms.
         </div>
       </div>
-
     </div>
   </div>
-
   <div class="page-footer">
     <div class="container">
       <footer class="site-footer">
@@ -215,7 +202,6 @@
       </footer>
     </div>
   </div>
-
   <div id="modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -240,7 +226,6 @@
       </div>
     </div>
   </div>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js"
